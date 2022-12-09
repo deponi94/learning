@@ -1,0 +1,39 @@
+/* Proprietà del contenitore generico div */
+
+div.bold-text {
+    font-weight: 700;
+}
+
+/* Proprietà della classe alert-text,
+segnalata in html come <div class="alert-text"> */
+
+.alert-text {
+    color: red;
+}
+
+/* Un elemento può appartenere a più classi:
+<div class="alert-text severe-alert" */
+
+/* id identifica un singolo elemento
+in questo caso si usa il simbolo # */
+
+#title {
+    background-color: red;
+}
+
+/* Raggruppare dichiarazioni in comune tra classi */
+
+.read,
+.unread {
+    color: white;
+    background-color: black;
+    /* several unique declarations */
+}
+
+.subsection.header {
+    color: red;
+}
+  
+.subsection#preview {
+    color: blue;
+}
