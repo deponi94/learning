@@ -37,3 +37,70 @@ in questo caso si usa il simbolo # */
 .subsection#preview {
     color: blue;
 }
+
+p {
+    /* hex example: */
+    color: #1100ff;
+    /* rgb example: */
+    color: rgb(100, 0, 127);
+    /* hsl example: */
+    color: hsl(15, 82%, 56%);
+}
+
+img {
+    height: auto;
+    width: 500px;
+}
+
+/* E' sempre meglio esplicitare le proprietà di img */
+
+/*
+Gerarchia di CSS
+1. ID selectors (più specifici)
+2. Class selectors
+3. Type selectors
+*/
+
+/* rule 1 */
+* {
+    color: black;
+}
+  
+/* rule 2 */
+  h1 {
+    color: orange;
+}
+
+/* Qui rule 2 è più specifica */
+
+/* Aggiungere CSS a una pag. HTML
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+*/
+
+/* styles.css */
+
+div {
+    color: white;
+    background-color: black;
+}
+  
+p {
+    color: red;
+}
+
+/* CSS può essere anche interno a una pagina HTML
+
+<style> **CSS** </style>
+
+Anche `inline` come in:
+
+<body>
+  <div style="color: white; background-color: black;">...</div>
+</body>
+
+*/
+
