@@ -1,0 +1,22 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.odd {
+    background: lightcoral;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+
+.bigger {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#two {
+    color: blue;
+    font-size: 36px;
+}
+
+#four {
+    background-color: lightgreen;
+}
